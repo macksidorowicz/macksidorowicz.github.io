@@ -56,3 +56,20 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100% /* cursor hover so it appears */
 }
+
+.header-text h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+.header-text h1 span{
+    color: #00b4fa;
+    font-style: italic;
+}
+
+.header-text{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 30px;
+}
