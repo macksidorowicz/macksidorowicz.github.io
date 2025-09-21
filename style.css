@@ -73,3 +73,56 @@ nav ul li a:hover::after{
     margin-top: 20%;
     font-size: 30px;
 }
+
+#about{
+    padding: 80px 0;
+    color: white ;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 60%;
+}
+
+.about-col-2{
+    flex-basis: 35%;
+}
+
+.section-title{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #00b4fa;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 75%;
+}
