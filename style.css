@@ -93,6 +93,24 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 
+.box1{
+    border-radius: 25px;
+    border: 3px solid white;
+    padding: 25px;
+    width: 250px;
+    height: 150px;
+    margin: auto;
+}
+
+.box1image{
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    border: 3px solid white;
+
+}
+
 .section-title{
     font-size: 60px;
     font-weight: 400;
@@ -149,4 +167,3 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-
