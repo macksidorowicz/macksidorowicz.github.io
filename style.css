@@ -6,15 +6,11 @@
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 
 .section{
     scroll-margin-top: 40px;
-}
-
-:root{
-    --header-height: 75px;
 }
 
 .site-header{
