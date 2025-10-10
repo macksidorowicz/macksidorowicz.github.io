@@ -15,17 +15,18 @@
     
     <body>
 
-        <div id="header">
+        <div id="home" class = "section">
             <div class="container">
                 
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+                <header class = "site-header">
+                    <nav>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
+                </header>
+
                 <div class="header-text">
                     <h1>Hi, I'm <span>Maciej</span></h1>
                     <p>I'm a computer science student</p>
@@ -33,7 +34,7 @@
             </div>
         </div>
 
-        <div id="about">
+        <div id="about" class = "section">
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
@@ -44,8 +45,9 @@
                             learnt Python as part of my school curriculum, I had quickly leaned towards Pygame, 
                             where I have tinkered with numerous different, though incomplete, games. 
                             This also led to starting to learn C++, and even Roblox Studio's Luau, so that I can 
-                            expand my existing knowledge even further. I plan to study at a Russell Group university (Oxbridge) 
-                            and later become a game or simulation developer.
+                            expand my existing knowledge even further. <br>I plan to study at a Russell Group university (Oxbridge) 
+                            and later become a game or simulation developer. In the meantime I hope to enchance
+                            my web development skills.
                          </p>
 
 <!-- Languages/Environments: Python, PyGame, C++, Roblox Studio (Luau) -->
@@ -68,8 +70,23 @@
                     </div>
                     <div class="about-col-2">
                         <!--<img src="images/languages.jpg" alt="languages" width="350" height="350">-->
-                        <div class="box1">
-                            <div class="box1image"></div>
+                        <div class = "boxRow">
+                            <div class = "box">
+                                <div id = "pyBoxImage"></div>
+                            </div>
+                        </div>
+                        <div class = "boxRow">
+                            <div class = "box">
+                                <div id = "pygameBoxImage"></div>
+                            </div>
+                            <div class = "box">
+                                <div id = "luauBoxImage"></div>
+                            </div>
+                        </div>
+                        <div class = "boxRow">
+                            <div class = "box">
+                                <div id = "cppBoxImage"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -77,7 +94,7 @@
         </div>
 <br><br>
 <!-- Projects -->
-<div id = "projects">
+<div id = "projects" class = "section">
     <div class="container">
         <h1 class="section-title">My Projects</h1>
     </div>
