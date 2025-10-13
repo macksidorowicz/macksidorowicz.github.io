@@ -105,11 +105,16 @@ nav a:hover::after{
 }
 
 .about-col-1{
-    flex-basis: 45%;
+    flex-basis: 50%;
+}
+
+.about-col-1 p{
+    font-size: 18px;
+    width: 100%;
 }
 
 .about-col-2{
-    flex-basis: 55%;
+    flex-basis: 50%;
     height: 100%;
     width: 100%;
     transform: translate(0%, 0%);
@@ -160,7 +165,7 @@ nav a:hover::after{
 
 #cppBoxImage{
 
-    background-image: url("images/cppLogo.png");
+    background-image: url("images/logos/cppLogo.png");
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -173,7 +178,7 @@ nav a:hover::after{
     margin: auto;
 }
 #cssBoxImage{
-    background-image: url("images/cssLogo.png");
+    background-image: url("images/logos/cssLogo.png");
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -186,7 +191,7 @@ nav a:hover::after{
     margin: auto;
 }
 
-/* column 2 */
+/* column 2 */lo
 .skill-col-2{
     flex-basis: 20%;
     position: relative;
@@ -195,7 +200,7 @@ nav a:hover::after{
 }
 
 #pythonBoxImage{ 
-    background-image: url("images/pythonLogo.png");
+    background-image: url("images/logos/pythonLogo.png");
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -209,7 +214,7 @@ nav a:hover::after{
 
 }
 #pygameBoxImage{
-    background-image: url("images/pygameLogo.png");
+    background-image: url("images/logos/pygameLogo.png");
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -223,7 +228,7 @@ nav a:hover::after{
 
 }
 #htmlBoxImage{
-    background-image: url("images/htmlLogo.png");
+    background-image: url("images/logos/htmlLogo.png");
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -252,7 +257,7 @@ nav a:hover::after{
 }
 
 #luauBoxImage{
-    background-image: url("images/luauLogo.png");
+    background-image: url("images/logos/luauLogo.png");
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -266,7 +271,7 @@ nav a:hover::after{
 
 }
 #jsBoxImage{
-    background-image: url("images/jsLogo.png");
+    background-image: url("images/logos/jsLogo.png");
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -278,89 +283,6 @@ nav a:hover::after{
     display: block;
     margin: auto;
 }
-
-
-
-/*
-
-.col2-2{
-    flex-basis: 30%;
-}
-
-#pyBoxImage{ 
-    background-image: url("images/pythonLogo.png");
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-
-    height: 100%;
-    width: 80%;
-    margin: auto;
-
-}
-#pygameBoxImage{
-    background-image: url("images/pygameLogo.png");
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-
-    height: 100%;
-    width: 80%;
-    margin: auto;
-
-}
-#htmlBoxImage{
-    background-image: url("images/htmlLogo.png");
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-
-    height: 100%;
-    width: 80%;
-    margin: auto;
-
-}
-
-*/
-
-/* column 3 */
-
-/*
-.col2-3{
-    flex-basis: 30%;
-}
-
-#luauBoxImage{
-    background-image: url("images/luauLogo.png");
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-
-    height: 100%;
-    width: 80%;
-    margin: auto;
-
-}
-#jsBoxImage{
-    background-image: url("images/jsLogo.png");
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-
-    height: 100%;
-    width: 80%;
-    margin: auto;
-
-}
-
-*/
-
-
 
 .section-title{
     font-size: 60px;
@@ -397,7 +319,7 @@ nav a:hover::after{
 }
 
 .tab-links.active-link::after{
-    width: 75%;
+    width: 30%;
 }
 
 .tab-contents ul li{
@@ -408,13 +330,67 @@ nav a:hover::after{
 
 .tab-contents ul li span{
     color: #00b4fa;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .tab-contents{
+    margin-top: 0px;
     display: none;
+    width: 95%;
+    position: relative;
+    left: 0%;
 }
 
 .tab-contents.active-tab{
     display: block;
+}
+
+.project-row{
+    border: 1px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-col-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50vh;
+    border: 1px solid yellow;
+    flex-basis: 30%;
+}
+#baseConverterImage{
+    background-image: url("images/projects/baseConverter.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 40%;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* Second column: text */
+.project-col-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid yellow;
+    flex-basis: 60%;
+}
+.project-col-2 h1{
+    text-align: left;
+    position: relative;
+    left: 1%;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 5px;
+}
+.project-col-2 p{
+    font-size: 18px;
+    width: 92%;
+    position: relative;
+    left: 4%;
 }
