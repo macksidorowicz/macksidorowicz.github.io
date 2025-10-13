@@ -100,27 +100,38 @@ nav a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
 }
 
 .about-col-1{
-    flex-basis: 60%;
+    flex-basis: 45%;
 }
 
 .about-col-2{
-    flex-basis: 35%;
+    flex-basis: 55%;
+    height: 100%;
+    width: 100%;
+    transform: translate(0%, 0%);
 }
 
 .box{
     border-radius: 28px;
     border: 3px solid white;
     
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6%;
+    padding-bottom: 14%;
+
+    margin: auto;
     
     width: 150px;
-    height: 115px;
+    height: 150px;
+
+    text-align: center;
+    font-size: 10px;
+
 }
 
 .boxRow{
@@ -130,6 +141,150 @@ nav a:hover::after{
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+
+/* column 1 */
+.skill-col-1{
+    flex-basis: 20%;
+    height: 80%;
+    width: 100%;
+
+    margin: 0;
+    position: relative;
+
+    top: 50%;
+    left: 15%;
+    transform: translate(0%, +25%);
+
+}
+
+#cppBoxImage{
+
+    background-image: url("images/cppLogo.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 100%;
+    width: 88%;
+
+    display: block;
+    margin: auto;
+}
+#cssBoxImage{
+    background-image: url("images/cssLogo.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 100%;
+    width: 88%;
+    
+    display: block;
+    margin: auto;
+}
+
+/* column 2 */
+.skill-col-2{
+    flex-basis: 20%;
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+
+#pythonBoxImage{ 
+    background-image: url("images/pythonLogo.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+    
+    display: block;
+    margin: auto;
+
+}
+#pygameBoxImage{
+    background-image: url("images/pygameLogo.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 100%;
+    width: 90%;
+    
+    display: block;
+    margin: auto;
+
+}
+#htmlBoxImage{
+    background-image: url("images/htmlLogo.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+    
+    display: block;
+    margin: auto;
+}
+
+/* column 3 */
+.skill-col-3{
+    flex-basis: 20%;
+    height: 80%;
+    width: 100%;
+
+    margin: 0;
+    position: relative;
+
+    top: 50%;
+    left: -15%;
+    transform: translate(0%, +25%);
+
+}
+
+#luauBoxImage{
+    background-image: url("images/luauLogo.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+    
+    display: block;
+    margin: auto;
+
+}
+#jsBoxImage{
+    background-image: url("images/jsLogo.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+
+    display: block;
+    margin: auto;
+}
+
+
+
+/*
+
+.col2-2{
+    flex-basis: 30%;
 }
 
 #pyBoxImage{ 
@@ -144,7 +299,6 @@ nav a:hover::after{
     margin: auto;
 
 }
-
 #pygameBoxImage{
     background-image: url("images/pygameLogo.png");
     background-color: black;
@@ -153,8 +307,30 @@ nav a:hover::after{
     position: relative;
 
     height: 100%;
-    width: 95%;
-    margin:auto;
+    width: 80%;
+    margin: auto;
+
+}
+#htmlBoxImage{
+    background-image: url("images/htmlLogo.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 100%;
+    width: 80%;
+    margin: auto;
+
+}
+
+*/
+
+/* column 3 */
+
+/*
+.col2-3{
+    flex-basis: 30%;
 }
 
 #luauBoxImage{
@@ -163,24 +339,28 @@ nav a:hover::after{
     background-position: center;
     background-size: cover;
     position: relative;
-    
-    height: 100%;
-    width: 100%;
-    margin: auto;
-}
 
-#cppBoxImage{
-    background-image: url("images/cppLogo.png");
+    height: 100%;
+    width: 80%;
+    margin: auto;
+
+}
+#jsBoxImage{
+    background-image: url("images/jsLogo.png");
     background-color: black;
     background-position: center;
-    background-size: 85%;
-    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 
     height: 100%;
-    width: 85%;
+    width: 80%;
     margin: auto;
+
 }
+
+*/
+
+
 
 .section-title{
     font-size: 60px;

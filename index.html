@@ -54,6 +54,7 @@
 
                             <div class="tab-titles">
                                 <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                                <p class="tab-links" onclick="opentab('skills')">Skills</p>
                                 <p class="tab-links" onclick="opentab('other')">Other</p>
                             </div>
                             <div class ="tab-contents active-tab" id="education">
@@ -62,32 +63,81 @@
                                     <li><span>A-Level</span><br>I am currently studying A-Level CS</li>
                                 </ul>
                             </div>
+                            <div class ="tab-contents" id="skills">
+                                <ul>
+                                    <li><span>Python/C++</span><br>GCSE + C++ extra, talk about</li>
+                                    <li><span>Game development</span><br>Pygame + Luau, talk about</li>
+                                    <li><span>Wed development</span><br>HTML, CSS, JS, talk about</li>
+                                </ul>
+                            </div>
                             <div class ="tab-contents" id="other">
                                 <ul>
-                                    <li><span>VEX Robotics</span><br>Programming robots to complete tasks</li>
+                                    <li><span>VEX Robotics</span><br>Programming robots, talk about</li>
                                 </ul>
                             </div>
                     </div>
                     <div class="about-col-2">
                         <!--<img src="images/languages.jpg" alt="languages" width="350" height="350">-->
-                        <div class = "boxRow">
-                            <div class = "box">
-                                <div id = "pyBoxImage"></div>
+                        
+<!--
+                            <div class = "col2-1">
+                                <div class = "box">
+                                    <div id = "cppBoxImage"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div class = "boxRow">
-                            <div class = "box">
-                                <div id = "pygameBoxImage"></div>
+                        -->
+
+                        <div class = "row">
+
+                            <!-- Column 1 -->
+                            <div class = "skill-col-1">
+                                <br>
+                                <div class = "box">
+                                    <div id = "cppBoxImage"></div>
+                                    <h1>C++</h1>
+                                </div>
+                                <br>
+                                <div class = "box">
+                                    <div id = "cssBoxImage"></div>
+                                    <h1>CSS</h1>
+                                </div>
+                                <br>
                             </div>
-                            <div class = "box">
-                                <div id = "luauBoxImage"></div>
+
+                            <!-- Column 2 -->
+                            <div class = "skill-col-2">
+                                <br>
+                                <div class = "box">
+                                    <div id = "pythonBoxImage"></div>
+                                    <h1>Python</h1>
+                                </div>
+                                <br>
+                                <div class = "box">
+                                    <div id = "pygameBoxImage"></div>
+                                    <h1>Pygame</h1>
+                                </div>
+                                <br>
+                                <div class = "box">
+                                    <div id = "htmlBoxImage"></div>
+                                    <h1>HTML</h1>
+                                </div>  
+                                <br>
                             </div>
-                        </div>
-                        <div class = "boxRow">
-                            <div class = "box">
-                                <div id = "cppBoxImage"></div>
+
+                            <!-- Column 3 -->
+                            <div class = "skill-col-3">
+                                <br>
+                                <div class = "box">
+                                    <div id = "luauBoxImage"></div>
+                                    <h1>Luau</h1>
+                                </div>
+                                <br>
+                                <div class = "box">
+                                    <div id = "jsBoxImage"></div>
+                                    <h1>JS</h1>
+                                </div>
+                                <br>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
