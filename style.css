@@ -288,6 +288,7 @@ nav a:hover::after{
     font-size: 60px;
     font-weight: 400;
     color: white;
+    margin-bottom: 10px;
 }
 
 .tab-titles{
@@ -346,7 +347,6 @@ nav a:hover::after{
 }
 
 .project-row{
-    border: 1px solid yellow;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -355,9 +355,7 @@ nav a:hover::after{
 
 .project-col-1{
     margin-top: 10px;
-    margin-bottom: 10px;
-    height: 50vh;
-    border: 1px solid yellow;
+    height: 20vh;
     flex-basis: 30%;
 }
 #baseConverterImage{
@@ -367,7 +365,7 @@ nav a:hover::after{
     background-size: cover;
     position: relative;
 
-    height: 40%;
+    height: 100%;
     width: 100%;
     display: block;
     margin: auto;
@@ -376,8 +374,6 @@ nav a:hover::after{
 /* Second column: text */
 .project-col-2{
     margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px solid yellow;
     flex-basis: 60%;
 }
 .project-col-2 h1{
@@ -386,11 +382,19 @@ nav a:hover::after{
     left: 1%;
     font-size: 40px;
     color: white;
-    margin-bottom: 5px;
 }
 .project-col-2 p{
     font-size: 18px;
     width: 92%;
     position: relative;
     left: 4%;
+}
+
+.project-footer{
+    margin: 10px;
+    text-align: center;
+    height: 8vh;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 2%;
 }
